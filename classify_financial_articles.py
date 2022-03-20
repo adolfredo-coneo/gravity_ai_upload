@@ -2,9 +2,9 @@ from gravityai import gravityai as grav
 import pickle
 import pandas as pd
 
-model = pickle.load(open(''))
-tfidf_vectorizer = pickle.load(open(''))
-label_encoder = pickle.load(open(''))
+model = pickle.load(open('financial_text_classifier.pk1', 'rb'))
+tfidf_vectorizer = pickle.load(open('financial_text_vectorizer.pk1', 'rb'))
+label_encoder = pickle.load(open('financial_text_encoder.pk1', 'rb'))
 
 
 def process(inPath, outPath):
