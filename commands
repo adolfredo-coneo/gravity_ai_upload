@@ -8,3 +8,6 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/adolfredo-coneo/gravity_ai_upload.git
 git push -u origin main
+
+//docker
+docker load -i ./Categorize_Financial_60838d.docker.tar.gz
